@@ -14,7 +14,7 @@ from __future__ import absolute_import, unicode_literals
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-import djcelery
+# import djcelery
 from django.conf.global_settings import SESSION_COOKIE_AGE
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
